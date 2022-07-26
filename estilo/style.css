@@ -1,0 +1,1113 @@
+@media screen and (max-width: 480px){
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  body{
+    background-image: url('../img/patron-pavos.jpg');
+  }
+
+  header{
+    grid-area: header;
+  }
+
+  .carrusel{
+    grid-area: carrusel;
+  }
+
+  .article-home{
+    grid-area: article-home;
+  }
+
+  .fotos-comida-izquierda{
+    grida-area: fotos-comida-izquierda;
+  }
+
+  .fotos-comida-derecha{
+    grid-area: fotos-comida-derecha;
+  }
+
+  .videos{
+    grid-area: videos;
+  }
+
+  .info-izquierda{
+    grid-area:info-izquierda;
+  }
+
+  .texto-izquierdo{
+    grid-area:texto-izquierdo;
+  }
+
+  .info-derecha{
+    grid-area:info-derecha;
+  }
+
+  .texto-derecho{
+    grid-area:texto-derecho;
+  }
+
+  footer{
+    grid-area: footer;
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "carrusel"
+    "article-home"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "fotos-comida-izquierza"
+    "fotos-comida-derecha"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "videos"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "info-izquierda"
+    "texto-izquierdo"
+    "info-derecha"
+    "texto-derecho"
+    "footer";
+  }
+
+  .menu-opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+
+  .menu-opciones {
+    font-size: 20px;
+  	font-weight: bolder;
+  	text-color: indianred!important;
+  }
+
+  .menu-opciones :hover {
+    color: aliceblue;
+  }
+
+  .carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+    scroll-behavior: smooth;
+  }
+
+  .carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+  }
+
+  .carrusel-fotos img {
+    background: #212121;
+    border: 4px #212121;
+    width: 40px;
+    height:60px;
+    object-fit: contain;
+  }
+
+  .carrusel-menu {
+    display: block;
+  }
+
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 45px;
+    height: 35px;
+    border: 8px #212121;
+  }
+
+  .carrusel-menu{
+    padding-top: 16px!important;
+  }
+  .carrusel-menu img:hover {
+    transform: scale(1.2);
+  }
+
+  p{
+    text-aling:  center;
+  }
+
+  .article-home{
+  	font-size: 25px;
+  	color: #E4717A;
+  	text-align: justify;
+  	margin-top: 10px;
+  	margin-right: 20px;
+  	margin-left: 20px;
+  }
+
+  .videos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 75%;
+  }
+
+  footer{
+    height: 100px;
+    margin-top: 163px;
+    background-color: lightcoral;
+  }
+
+  .fecha{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+  }
+
+  .fotos-comida-izquierda img{
+    display: flex;
+    flex-direction: row;
+    width: 175px;
+    height: 120px;
+  }
+
+  .fotos-comida-derecha img{
+   display: flex;
+    width: 175px;
+    height: 120px;
+  }
+  .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+    color: white;
+  }
+
+  .info-izquierda img{
+    display: flex;
+    width: 120px;
+    height: 175px;
+  }
+
+  .info-derecha img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 120px;
+    height: 175px;
+  }
+
+  .texto-izquierdo,.texto-derecho{
+    color: white;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  body{
+    background-image: url('../img/patron-pavos.jpg');
+  }
+
+  header{
+    grid-area: header;
+  }
+
+  .carrusel{
+    grid-area: carrusel;
+  }
+
+  .article-home{
+    grid-area: article-home;
+  }
+
+  .fotos-comida-izquierda{
+    grida-area: fotos-comida-izquierda;
+  }
+
+  .fotos-comida-derecha{
+    grid-area: fotos-comida-derecha;
+  }
+
+  .videos{
+    grid-area: videos;
+  }
+
+  .info-izquierda{
+    grid-area:info-izquierda;
+  }
+
+  .texto-izquierdo{
+    grid-area:texto-izquierdo;
+  }
+
+  .info-derecha{
+    grid-area:info-derecha;
+  }
+
+  .texto-derecho{
+    grid-area:texto-derecho;
+  }
+
+  footer{
+    grid-area: footer;
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "carrusel"
+    "article-home"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "fotos-comida-izquierza"
+    "fotos-comida-derecha"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "videos"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "info-izquierda"
+    "texto-izquierdo"
+    "info-derecha"
+    "texto-derecho"
+    "footer";
+  }
+
+  .menu-opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+
+  .menu-opciones {
+    font-size: 20px;
+    font-weight: bolder;
+    text-color: indianred!important;
+  }
+
+  .menu-opciones :hover {
+    color: aliceblue;
+  }
+
+  .carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 690px;
+    scroll-behavior: smooth;
+  }
+
+  .carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+  }
+
+  .carrusel-fotos img {
+    background: #212121;
+    border: 4px #212121;
+    width: 400px;
+    height:300px;
+    object-fit: contain;
+  }
+
+  .carrusel-menu {
+    display: block;
+  }
+
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 45px;
+    height: 35px;
+    border: 8px #212121;
+  }
+
+  .carrusel-menu{
+    padding-top: 16px!important;
+  }
+  .carrusel-menu img:hover {
+    transform: scale(1.2);
+  }
+
+  p{
+    text-aling:  center;
+  }
+
+  .article-home{
+    font-size: 25px;
+    color: #E4717A;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  footer{
+    height: 100px;
+    margin-top: 163px;
+    background-color: lightcoral;
+  }
+
+  .fecha{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+  }
+
+  .fotos-comida-izquierda img{
+    display: flex;
+    flex-direction: row;
+    width: 175px;
+    height: 120px;
+  }
+
+  .fotos-comida-derecha img{
+   display: flex;
+    width: 175px;
+    height: 120px;
+  }
+  .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+    color: white;
+  }
+
+  .info-izquierda img{
+    display: flex;
+    width: 120px;
+    height: 175px;
+  }
+
+  .info-derecha img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 120px;
+    height: 175px;
+  }
+
+  .texto-izquierdo,.texto-derecho{
+    color: white;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 960px){
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  body{
+    background-image: url('../img/patron-pavos.jpg');
+  }
+
+  header{
+    grid-area: header;
+  }
+
+  .carrusel{
+    grid-area: carrusel;
+  }
+
+  .article-home{
+    grid-area: article-home;
+  }
+
+  .fotos-comida-izquierda{
+    grida-area: fotos-comida-izquierda;
+  }
+
+  .fotos-comida-derecha{
+    grid-area: fotos-comida-derecha;
+  }
+
+  .videos{
+    grid-area: videos;
+  }
+
+  .info-izquierda{
+    grid-area:info-izquierda;
+  }
+
+  .texto-izquierdo{
+    grid-area:texto-izquierdo;
+  }
+
+  .info-derecha{
+    grid-area:info-derecha;
+  }
+
+  .texto-derecho{
+    grid-area:texto-derecho;
+  }
+
+  footer{
+    grid-area: footer;
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "carrusel"
+    "article-home"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "fotos-comida-izquierza"
+    "fotos-comida-derecha"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "videos"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "info-izquierda"
+    "texto-izquierdo"
+    "info-derecha"
+    "texto-derecho"
+    "footer";
+  }
+
+  .menu-opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+
+  .menu-opciones {
+    font-size: 20px;
+    font-weight: bolder;
+    text-color: indianred!important;
+  }
+
+  .menu-opciones :hover {
+    color: aliceblue;
+  }
+
+  .carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 955px;
+    scroll-behavior: smooth;
+  }
+
+  .carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+  }
+
+  .carrusel-fotos img {
+    background: #212121;
+    border: 4px #212121;
+    width: 400px;
+    height:300px;
+    object-fit: contain;
+  }
+
+  .carrusel-menu {
+    display: block;
+  }
+
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 45px;
+    height: 35px;
+    border: 8px #212121;
+  }
+
+  .carrusel-menu{
+    padding-top: 16px!important;
+  }
+  .carrusel-menu img:hover {
+    transform: scale(1.2);
+  }
+
+  p{
+    text-aling:  center;
+  }
+
+  .article-home{
+    font-size: 25px;
+    color: #E4717A;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  footer{
+    height: 100px;
+    margin-top: 163px;
+    background-color: lightcoral;
+  }
+
+  .fecha{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+  }
+
+  .fotos-comida-izquierda img{
+    display: flex;
+    flex-direction: row;
+    width: 175px;
+    height: 120px;
+  }
+
+  .fotos-comida-derecha img{
+   display: flex;
+    width: 175px;
+    height: 120px;
+  }
+  .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+    color: white;
+  }
+
+  .info-izquierda img{
+    display: flex;
+    width: 120px;
+    height: 175px;
+  }
+
+  .info-derecha img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 120px;
+    height: 175px;
+  }
+
+  .texto-izquierdo,.texto-derecho{
+    color: white;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  body{
+    background-image: url('../img/patron-pavos.jpg');
+  }
+
+  header{
+    grid-area: header;
+  }
+
+  .carrusel{
+    grid-area: carrusel;
+  }
+
+  .article-home{
+    grid-area: article-home;
+  }
+
+  .fotos-comida-izquierda{
+    grida-area: fotos-comida-izquierda;
+  }
+
+  .fotos-comida-derecha{
+    grid-area: fotos-comida-derecha;
+  }
+
+  .videos{
+    grid-area: videos;
+  }
+
+  .info-izquierda{
+    grid-area:info-izquierda;
+  }
+
+  .texto-izquierdo{
+    grid-area:texto-izquierdo;
+  }
+
+  .info-derecha{
+    grid-area:info-derecha;
+  }
+
+  .texto-derecho{
+    grid-area:texto-derecho;
+  }
+
+  footer{
+    grid-area: footer;
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "carrusel"
+    "article-home"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "fotos-comida-izquierza"
+    "fotos-comida-derecha"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "videos"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "info-izquierda"
+    "texto-izquierdo"
+    "info-derecha"
+    "texto-derecho"
+    "footer";
+  }
+
+  .menu-opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+
+  .menu-opciones {
+    font-size: 20px;
+    font-weight: bolder;
+    text-color: indianred!important;
+  }
+
+  .menu-opciones :hover {
+    color: aliceblue;
+  }
+
+  .carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 990px;
+    scroll-behavior: smooth;
+  }
+
+  .carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+  }
+
+  .carrusel-fotos img {
+    background: #212121;
+    border: 4px #212121;
+    width: 400px;
+    height:300px;
+    object-fit: contain;
+  }
+
+  .carrusel-menu {
+    display: block;
+  }
+
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 45px;
+    height: 35px;
+    border: 8px #212121;
+  }
+
+  .carrusel-menu{
+    padding-top: 16px!important;
+  }
+  .carrusel-menu img:hover {
+    transform: scale(1.2);
+  }
+
+  p{
+    text-aling:  center;
+  }
+
+  .article-home{
+    font-size: 25px;
+    color: #E4717A;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  footer{
+    height: 100px;
+    margin-top: 163px;
+    background-color: lightcoral;
+  }
+
+  .fecha{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+  }
+
+  .fotos-comida-izquierda img{
+    display: flex;
+    flex-direction: row;
+    width: 175px;
+    height: 120px;
+  }
+
+  .fotos-comida-derecha img{
+   display: flex;
+    width: 175px;
+    height: 120px;
+  }
+  .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+    color: white;
+  }
+
+  .info-izquierda img{
+    display: flex;
+    width: 120px;
+    height: 175px;
+  }
+
+  .info-derecha img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 120px;
+    height: 175px;
+  }
+
+  .texto-izquierdo,.texto-derecho{
+    color: white;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1328px){
+   *{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  body{
+    background-image: url('../img/patron-pavos.jpg');
+    min-height: 100vh;
+  }
+
+  header{
+    grid-area: header;
+  }
+
+  .carrusel{
+    grid-area: carrusel;
+  }
+
+  .article-home{
+    grid-area: article-home;
+  }
+
+  .fotos-comida-izquierda{
+    grida-area: fotos-comida-izquierda;
+  }
+
+  .fotos-comida-derecha{
+    grid-area: fotos-comida-derecha;
+  }
+
+  .videos{
+    grid-area: videos;
+  }
+
+  .info-izquierda{
+    grid-area:info-izquierda;
+  }
+
+  .texto-izquierdo{
+    grid-area:texto-izquierdo;
+  }
+
+  .info-derecha{
+    grid-area:info-derecha;
+  }
+
+  .texto-derecho{
+    grid-area:texto-derecho;
+  }
+
+  footer{
+    grid-area: footer;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "carrusel"
+    "article-home"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "fotos-comida-izquierza"
+    "fotos-comida-derecha"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "videos"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "info-izquierda"
+    "texto-izquierdo"
+    "info-derecha"
+    "texto-derecho"
+    "footer";
+  }
+
+  .menu-opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+
+  .menu-opciones {
+    font-size: 20px;
+    font-weight: bolder;
+    text-color: indianred!important;
+  }
+
+  .menu-opciones :hover {
+    color: aliceblue;
+  }
+
+  .carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 1030px;
+    scroll-behavior: smooth;
+  }
+
+  .carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+  }
+
+  .carrusel-fotos img {
+    background: #212121;
+    border: 4px #212121;
+    width: 400px;
+    height:300px;
+    object-fit: contain;
+  }
+
+  .carrusel-menu {
+    display: block;
+  }
+
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 45px;
+    height: 35px;
+    border: 8px #212121;
+  }
+
+  .carrusel-menu{
+    padding-top: 16px!important;
+  }
+  .carrusel-menu img:hover {
+    transform: scale(1.2);
+  }
+
+  p{
+    text-aling:  center;
+  }
+
+  .article-home{
+    font-size: 25px;
+    color: #E4717A;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  footer{
+    display: grid;
+
+    height: 100px;
+    background-color: lightcoral;
+  }
+
+  .fecha{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+  }
+
+  .fotos-comida-izquierda img{
+    display: flex;
+    flex-direction: row;
+    width: 175px;
+    height: 120px;
+  }
+
+  .fotos-comida-derecha img{
+   display: flex;
+    width: 175px;
+    height: 120px;
+  }
+  .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+    color: white;
+    text-align: center;
+  }
+
+  .info-izquierda img{
+    display: flex;
+    width: 120px;
+    height: 175px;
+  }
+
+  .info-derecha img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 120px;
+    height: 175px;
+  }
+
+  .texto-izquierdo,.texto-derecho{
+    color: white;
+    text-align: center;
+  }
+
+  .fotos-comida-izquierda img:hover{
+    width: 190px;
+    height: 140px;
+  }
+
+  .fotos-comida-derecha img:hover{
+    width: 190px;
+    height: 140px;
+  }
+}
