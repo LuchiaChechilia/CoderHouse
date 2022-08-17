@@ -1,7 +1,7 @@
 @import "generales";
 @import "menuOpciones";
 
-@media screen and (max-width: 480px){
+@media screen and (min-width: 480px){
     header{
       grid-area: header;
     }
@@ -198,7 +198,7 @@
   
   }
   
-  @media screen and (max-width: 768px){  
+  @media screen and (min-width: 768px){  
     header{
       grid-area: header;
     }
@@ -387,7 +387,7 @@
     }
   }
   
-  @media screen and (max-width: 960px){
+  @media screen and (min-width: 960px){
     header{
       grid-area: header;
     }
@@ -576,7 +576,7 @@
     }
   }
   
-  @media screen and (max-width: 1024px){
+  @media screen and (min-width: 1024px){
     header{
       grid-area: header;
     }
@@ -765,7 +765,7 @@
     }
   }
   
-  @media screen and (max-width: 1328px){
+  @media screen and (min-width: 1328px){
     header{
       grid-area: header;
     }
@@ -849,7 +849,7 @@
       "texto-derecho"
       "footer";
     }
-    
+
     .carrusel {
       display: flex;
       gap: 10px;
