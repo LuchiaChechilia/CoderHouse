@@ -1,0 +1,29 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "Proyecto de coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuchiaChechilia/CoderHouse.git"
+  },
+  "author": "Lucia Cecilia Rosende",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuchiaChechilia/CoderHouse/issues"
+  },
+  "homepage": "https://github.com/LuchiaChechilia/CoderHouse#readme",
+  "devDependencies": {
+    "i": "^0.3.7",
+    "morgan": "^1.10.0",
+    "npm": "^8.18.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
