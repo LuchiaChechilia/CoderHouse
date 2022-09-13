@@ -15,7 +15,7 @@
     }
   
     .fotos-comida-izquierda{
-      grida-area: fotos-comida-izquierda;
+      grid-area: fotos-comida-izquierda;
     }
   
     .fotos-comida-derecha{
@@ -41,7 +41,15 @@
     .texto-derecho{
       grid-area:texto-derecho;
     }
-  
+
+    .title-shop{
+        grid-area:title-shop;
+    }
+
+    .enlaces{
+        grid-area: enlaces;
+    }
+
     footer{
       grid-area: footer;
     }
@@ -54,16 +62,7 @@
       "article-home"
       "footer";
     }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "fotos-comida-izquierza"
-      "fotos-comida-derecha"
-      "footer";
-    }
-  
+      
     .grilla{
       display: grid;
       grid-template-areas:
@@ -82,7 +81,25 @@
       "texto-derecho"
       "footer";
     }
-  
+
+    .grilla{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "carrusel"
+        "article-home"
+        "footer";
+      }
+
+    .grilla{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "title-shop"
+        "enlaces"
+        "footer";
+      }  
+    
     .carrusel {
       display: flex;
       gap: 10px;
@@ -130,7 +147,7 @@
     }
   
     p{
-      text-aling:  center;
+      text-align:  center;
     }
   
     .article-home{
@@ -145,6 +162,10 @@
     .videos{
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 100px;
       width: 100%;
       height: 75%;
     }
@@ -156,8 +177,11 @@
     }
   
     .fecha{
-      text-align: center;
-      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 45px;
+      font-size: 20px;
       color: white;
     }
   
@@ -166,21 +190,30 @@
       flex-direction: row;
       width: 175px;
       height: 120px;
+      margin-top: 40px;
+      margin-bottom: 20px;
     }
   
     .fotos-comida-derecha img{
      display: flex;
       width: 175px;
       height: 120px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
     .parrafo1,.parrafo2,.parrafo3,.parrafo4{
-      color: white;
+      color: bisque;
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
   
     .info-izquierda img{
       display: flex;
       width: 120px;
       height: 175px;
+      margin-top: 40px;
+      margin-bottom: 15px;
     }
   
     .info-derecha img{
@@ -189,11 +222,51 @@
       flex-wrap: nowrap;
       width: 120px;
       height: 175px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
   
     .texto-izquierdo,.texto-derecho{
-      color: white;
+      color: bisque;
+      font-size: 20px;
       text-align: center;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    h3{
+        color: bisque;
+        font-size: 20px;
+        font-weight: normal;
+        text-align: center;
+        margin-top: 15px;
+        background-color: lightcoral;
+    }
+
+    .bi.bi-cart3{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 15px;
+        width: 60;
+        height: 60;
+        color: bisque;
+        background-color: lightcoral;
+    }
+
+    section div a{
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        color: bisque;
+        background-color: lightcoral;
+    }
+
+    p.text-shop{
+        margin-top: 10px;
+        font-size: 18px;
+        text-align: center;
+        color: lightcoral;
+        background-color: bisque;
     }
   
   }
@@ -212,7 +285,7 @@
     }
   
     .fotos-comida-izquierda{
-      grida-area: fotos-comida-izquierda;
+      grid-area: fotos-comida-izquierda;
     }
   
     .fotos-comida-derecha{
@@ -238,6 +311,14 @@
     .texto-derecho{
       grid-area:texto-derecho;
     }
+
+    .title-shop{
+        grid-area:title-shop;
+    }
+
+    .enlaces{
+        grid-area: enlaces;
+    }
   
     footer{
       grid-area: footer;
@@ -256,7 +337,7 @@
       display: grid;
       grid-template-areas:
       "header"
-      "fotos-comida-izquierza"
+      "fotos-comida-izquierda"
       "fotos-comida-derecha"
       "footer";
     }
@@ -279,6 +360,15 @@
       "texto-derecho"
       "footer";
     }
+
+    .grilla{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "title-shop"
+        "enlaces"
+        "footer";
+      }
   
     .carrusel {
       display: flex;
@@ -327,7 +417,7 @@
     }
   
     p{
-      text-aling:  center;
+      text-align:  center;
     }
   
     .article-home{
@@ -346,45 +436,62 @@
     }
   
     .fecha{
-      text-align: center;
-      font-size: 10px;
-      color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 45px;
+        font-size: 25px;
+        color: white;
     }
   
     .fotos-comida-izquierda img{
-      display: flex;
-      flex-direction: row;
-      width: 175px;
-      height: 120px;
-    }
-  
-    .fotos-comida-derecha img{
-     display: flex;
-      width: 175px;
-      height: 120px;
-    }
-    .parrafo1,.parrafo2,.parrafo3,.parrafo4{
-      color: white;
-    }
+        display: flex;
+        flex-direction: row;
+        width: 185px;
+        height: 130px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+    
+      .fotos-comida-derecha img{
+       display: flex;
+        width: 185px;
+        height: 130px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+        color: bisque;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
   
     .info-izquierda img{
-      display: flex;
-      width: 120px;
-      height: 175px;
-    }
-  
-    .info-derecha img{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      width: 120px;
-      height: 175px;
-    }
-  
-    .texto-izquierdo,.texto-derecho{
-      color: white;
-      text-align: center;
-    }
+        display: flex;
+        width: 130px;
+        height: 185px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+      }
+    
+      .info-derecha img{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 130px;
+        height: 185px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    
+      .texto-izquierdo,.texto-derecho{
+        color: bisque;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
   }
   
   @media screen and (min-width: 960px){
@@ -401,7 +508,7 @@
     }
   
     .fotos-comida-izquierda{
-      grida-area: fotos-comida-izquierda;
+      grid-area: fotos-comida-izquierda;
     }
   
     .fotos-comida-derecha{
@@ -427,6 +534,14 @@
     .texto-derecho{
       grid-area:texto-derecho;
     }
+
+    .title-shop{
+        grid-area:title-shop;
+    }
+
+    .enlaces{
+        grid-area: enlaces;
+    }
   
     footer{
       grid-area: footer;
@@ -445,7 +560,7 @@
       display: grid;
       grid-template-areas:
       "header"
-      "fotos-comida-izquierza"
+      "fotos-comida-izquierda"
       "fotos-comida-derecha"
       "footer";
     }
@@ -468,6 +583,15 @@
       "texto-derecho"
       "footer";
     }
+
+    .grilla{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "title-shop"
+        "enlaces"
+        "footer";
+      }
 
     .carrusel {
       display: flex;
@@ -516,7 +640,7 @@
     }
   
     p{
-      text-aling:  center;
+      text-align:  center;
     }
   
     .article-home{
@@ -535,44 +659,78 @@
     }
   
     .fecha{
-      text-align: center;
-      font-size: 10px;
-      color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        font-size: 20px;
+        color: white;
     }
   
     .fotos-comida-izquierda img{
-      display: flex;
-      flex-direction: row;
-      width: 175px;
-      height: 120px;
-    }
-  
-    .fotos-comida-derecha img{
-     display: flex;
-      width: 175px;
-      height: 120px;
-    }
-    .parrafo1,.parrafo2,.parrafo3,.parrafo4{
-      color: white;
-    }
+        display: flex;
+        flex-direction: row;
+        width: 195px;
+        height: 140px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+    
+      .fotos-comida-derecha img{
+       display: flex;
+        width: 195px;
+        height: 140px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+        color: bisque;
+        font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
   
     .info-izquierda img{
-      display: flex;
-      width: 120px;
-      height: 175px;
+        display: flex;
+        width: 140px;
+        height: 195px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+      }
+    
+      .info-derecha img{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 140px;
+        height: 195px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    
+      .texto-izquierdo,.texto-derecho{
+        color: bisque;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+
+    h3{
+        font-size: 24px;
     }
-  
-    .info-derecha img{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      width: 120px;
-      height: 175px;
+
+    .bi.bi-cart3{
+        margin-top: 35px;
+        margin-bottom: 35px;
     }
-  
-    .texto-izquierdo,.texto-derecho{
-      color: white;
-      text-align: center;
+
+    section div a{
+        font-size: 20px;
+    }
+
+    p.text-shop{
+        font-size: 25px;
     }
   }
   
@@ -590,7 +748,7 @@
     }
   
     .fotos-comida-izquierda{
-      grida-area: fotos-comida-izquierda;
+      grid-area: fotos-comida-izquierda;
     }
   
     .fotos-comida-derecha{
@@ -616,6 +774,14 @@
     .texto-derecho{
       grid-area:texto-derecho;
     }
+
+    .title-shop{
+        grid-area:title-shop;
+    }
+
+    .enlaces{
+        grid-area: enlaces;
+    }
   
     footer{
       grid-area: footer;
@@ -634,7 +800,7 @@
       display: grid;
       grid-template-areas:
       "header"
-      "fotos-comida-izquierza"
+      "fotos-comida-izquierda"
       "fotos-comida-derecha"
       "footer";
     }
@@ -657,6 +823,15 @@
       "texto-derecho"
       "footer";
     }
+
+    .grilla{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "title-shop"
+        "enlaces"
+        "footer";
+      }
   
     .carrusel {
       display: flex;
@@ -705,7 +880,7 @@
     }
   
     p{
-      text-aling:  center;
+      text-align:  center;
     }
   
     .article-home{
@@ -724,45 +899,62 @@
     }
   
     .fecha{
-      text-align: center;
-      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 55px;
+      font-size: 20px;
       color: white;
     }
   
     .fotos-comida-izquierda img{
-      display: flex;
-      flex-direction: row;
-      width: 175px;
-      height: 120px;
-    }
-  
-    .fotos-comida-derecha img{
-     display: flex;
-      width: 175px;
-      height: 120px;
-    }
-    .parrafo1,.parrafo2,.parrafo3,.parrafo4{
-      color: white;
-    }
+        display: flex;
+        flex-direction: row;
+        width: 205px;
+        height: 150px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+    
+      .fotos-comida-derecha img{
+       display: flex;
+        width: 205px;
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+        color: bisque;
+        font-size: 24px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
   
     .info-izquierda img{
-      display: flex;
-      width: 120px;
-      height: 175px;
-    }
-  
-    .info-derecha img{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      width: 120px;
-      height: 175px;
-    }
-  
-    .texto-izquierdo,.texto-derecho{
-      color: white;
-      text-align: center;
-    }
+        display: flex;
+        width: 150px;
+        height: 205px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+      }
+    
+      .info-derecha img{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 150px;
+        height: 205px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    
+      .texto-izquierdo,.texto-derecho{
+        color: bisque;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
   }
   
   @media screen and (min-width: 1328px){
@@ -779,7 +971,7 @@
     }
   
     .fotos-comida-izquierda{
-      grida-area: fotos-comida-izquierda;
+      grid-area: fotos-comida-izquierda;
     }
   
     .fotos-comida-derecha{
@@ -805,12 +997,17 @@
     .texto-derecho{
       grid-area:texto-derecho;
     }
+
+    .title-shop{
+        grid-area:title-shop;
+    }
+
+    .enlaces{
+        grid-area: enlaces;
+    }
   
     footer{
       grid-area: footer;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
     }
   
     .grilla{
@@ -826,7 +1023,7 @@
       display: grid;
       grid-template-areas:
       "header"
-      "fotos-comida-izquierza"
+      "fotos-comida-izquierda"
       "fotos-comida-derecha"
       "footer";
     }
@@ -849,6 +1046,15 @@
       "texto-derecho"
       "footer";
     }
+
+    .grilla{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "title-shop"
+        "enlaces"
+        "footer";
+      }
 
     .carrusel {
       display: flex;
@@ -897,7 +1103,7 @@
     }
   
     p{
-      text-aling:  center;
+      text-align:  center;
     }
   
     .article-home{
@@ -911,52 +1117,67 @@
   
     footer{
       display: grid;
-  
       height: 100px;
       background-color: lightcoral;
     }
   
     .fecha{
-      text-align: center;
-      font-size: 10px;
-      color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+        font-size: 20px;
+        color: white;
     }
   
     .fotos-comida-izquierda img{
-      display: flex;
-      flex-direction: row;
-      width: 175px;
-      height: 120px;
-    }
-  
-    .fotos-comida-derecha img{
-     display: flex;
-      width: 175px;
-      height: 120px;
-    }
-    .parrafo1,.parrafo2,.parrafo3,.parrafo4{
-      color: white;
-      text-align: center;
-    }
+        display: flex;
+        flex-direction: row;
+        width: 215px;
+        height: 160px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+    
+      .fotos-comida-derecha img{
+       display: flex;
+        width: 215px;
+        height: 160px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+        color: bisque;
+        font-size: 26px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
   
     .info-izquierda img{
-      display: flex;
-      width: 120px;
-      height: 175px;
-    }
-  
-    .info-derecha img{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      width: 120px;
-      height: 175px;
-    }
-  
-    .texto-izquierdo,.texto-derecho{
-      color: white;
-      text-align: center;
-    }
+        display: flex;
+        width: 170px;
+        height: 225px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+      }
+    
+      .info-derecha img{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 170px;
+        height: 225px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    
+      .texto-izquierdo,.texto-derecho{
+        color: bisque;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
   
     .fotos-comida-izquierda img:hover{
       width: 190px;
@@ -966,6 +1187,23 @@
     .fotos-comida-derecha img:hover{
       width: 190px;
       height: 140px;
+    }
+
+    h3{
+        font-size: 26px;
+    }
+
+    .bi.bi-cart3{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    section div a{
+        font-size: 20px;
+    }
+
+    p.text-shop{
+        font-size: 25px;
     }
   }
   
