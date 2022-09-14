@@ -163,18 +163,18 @@
 
 @media screen and (min-width: 480px) {
   header {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
+    grid-row: 1;
+    grid-column: 1;
     grid-area: header;
   }
   .carrusel {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: carrusel;
   }
   .article-home {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: article-home;
   }
   .fotos-comida-izquierda {
@@ -184,43 +184,43 @@
     grid-area: fotos-comida-derecha;
   }
   .videos {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: videos;
   }
   .info-izquierda {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: info-izquierda;
   }
   .texto-izquierdo {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: texto-izquierdo;
   }
   .info-derecha {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
+    grid-row: 4;
+    grid-column: 1;
     grid-area: info-derecha;
   }
   .texto-derecho {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
+    grid-row: 5;
+    grid-column: 1;
     grid-area: texto-derecho;
   }
   .title-shop {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: title-shop;
   }
   .enlaces {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: enlaces;
   }
   footer {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
+    grid-row: 4;
+    grid-column: 1;
     grid-area: footer;
   }
   .grilla {
@@ -437,68 +437,68 @@
 
 @media screen and (min-width: 768px) {
   header {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
+    grid-row: 1;
+    grid-column: 1;
     grid-area: header;
   }
   .carrusel {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: carrusel;
   }
   .article-home {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: article-home;
   }
   .fotos-comida-izquierda {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: fotos-comida-izquierda;
   }
   .fotos-comida-derecha {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: fotos-comida-derecha;
   }
   .videos {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: videos;
   }
   .info-izquierda {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: info-izquierda;
   }
   .texto-izquierdo {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: texto-izquierdo;
   }
   .info-derecha {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
+    grid-row: 4;
+    grid-column: 1;
     grid-area: info-derecha;
   }
   .texto-derecho {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
+    grid-row: 5;
+    grid-column: 1;
     grid-area: texto-derecho;
   }
   .title-shop {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: title-shop;
   }
   .enlaces {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: enlaces;
   }
   footer {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
+    grid-row: 4;
+    grid-column: 1;
     grid-area: footer;
   }
   .grilla {
@@ -667,68 +667,68 @@
 
 @media screen and (min-width: 960px) {
   header {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
+    grid-row: 1;
+    grid-column: 1;
     grid-area: header;
   }
   .carrusel {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: carrusel;
   }
   .article-home {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: article-home;
   }
   .fotos-comida-izquierda {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: fotos-comida-izquierda;
   }
   .fotos-comida-derecha {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: fotos-comida-derecha;
   }
   .videos {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: videos;
   }
   .info-izquierda {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: info-izquierda;
   }
   .texto-izquierdo {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: texto-izquierdo;
   }
   .info-derecha {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
+    grid-row: 4;
+    grid-column: 1;
     grid-area: info-derecha;
   }
   .texto-derecho {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
+    grid-row: 5;
+    grid-column: 1;
     grid-area: texto-derecho;
   }
   .title-shop {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: title-shop;
   }
   .enlaces {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: enlaces;
   }
   footer {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
+    grid-row: 4;
+    grid-column: 1;
     grid-area: footer;
   }
   .grilla {
@@ -910,68 +910,68 @@
 
 @media screen and (min-width: 1024px) {
   header {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
+    grid-row: 1;
+    grid-column: 1;
     grid-area: header;
   }
   .carrusel {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: carrusel;
   }
   .article-home {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: article-home;
   }
   .fotos-comida-izquierda {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: fotos-comida-izquierda;
   }
   .fotos-comida-derecha {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: fotos-comida-derecha;
   }
   .videos {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: videos;
   }
   .info-izquierda {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: info-izquierda;
   }
   .texto-izquierdo {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: texto-izquierdo;
   }
   .info-derecha {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
+    grid-row: 4;
+    grid-column: 1;
     grid-area: info-derecha;
   }
   .texto-derecho {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
+    grid-row: 5;
+    grid-column: 1;
     grid-area: texto-derecho;
   }
   .title-shop {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: title-shop;
   }
   .enlaces {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: enlaces;
   }
   footer {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
+    grid-row: 4;
+    grid-column: 1;
     grid-area: footer;
   }
   .grilla {
@@ -1064,8 +1064,6 @@
     background-color: lightcoral;
   }
   .fecha {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1140,68 +1138,68 @@
 
 @media screen and (min-width: 1328px) {
   header {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
+    grid-row: 1;
+    grid-column: 1;
     grid-area: header;
   }
   .carrusel {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: carrusel;
   }
   .article-home {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: article-home;
   }
   .fotos-comida-izquierda {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: fotos-comida-izquierda;
   }
   .fotos-comida-derecha {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: fotos-comida-derecha;
   }
   .videos {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: videos;
   }
   .info-izquierda {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: info-izquierda;
   }
   .texto-izquierdo {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: texto-izquierdo;
   }
   .info-derecha {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
+    grid-row: 4;
+    grid-column: 1;
     grid-area: info-derecha;
   }
   .texto-derecho {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
+    grid-row: 5;
+    grid-column: 1;
     grid-area: texto-derecho;
   }
   .title-shop {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
+    grid-row: 2;
+    grid-column: 1;
     grid-area: title-shop;
   }
   .enlaces {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
+    grid-row: 3;
+    grid-column: 1;
     grid-area: enlaces;
   }
   footer {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
+    grid-row: 4;
+    grid-column: 1;
     grid-area: footer;
   }
   .grilla {
