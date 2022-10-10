@@ -3,20 +3,12 @@
     padding: 0px;
     margin: 0px;
   }
-  body {
-    background-image: url("../img/patron-pavos.jpg");
-    min-height: 100vh;
-  }
 }
 
 @media screen and (min-width: 768px) {
   * {
     padding: 0px;
     margin: 0px;
-  }
-  body {
-    background-image: url("../img/patron-pavos.jpg");
-    min-height: 100vh;
   }
 }
 
@@ -25,10 +17,6 @@
     padding: 0px;
     margin: 0px;
   }
-  body {
-    background-image: url("../img/patron-pavos.jpg");
-    min-height: 100vh;
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -36,20 +24,12 @@
     padding: 0px;
     margin: 0px;
   }
-  body {
-    background-image: url("../img/patron-pavos.jpg");
-    min-height: 100vh;
-  }
 }
 
 @media screen and (min-width: 1328px) {
   * {
     padding: 0px;
     margin: 0px;
-  }
-  body {
-    background-image: url("../img/patron-pavos.jpg");
-    min-height: 100vh;
   }
 }
 
@@ -163,18 +143,18 @@
 
 @media screen and (min-width: 480px) {
   header {
-    grid-row: 1;
-    grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: header;
   }
   .carrusel {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: carrusel;
   }
   .article-home {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: article-home;
   }
   .fotos-comida-izquierda {
@@ -184,43 +164,43 @@
     grid-area: fotos-comida-derecha;
   }
   .videos {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: videos;
   }
   .info-izquierda {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: info-izquierda;
   }
   .texto-izquierdo {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: texto-izquierdo;
   }
   .info-derecha {
-    grid-row: 4;
-    grid-column: 1;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: info-derecha;
   }
   .texto-derecho {
-    grid-row: 5;
-    grid-column: 1;
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
     grid-area: texto-derecho;
   }
   .title-shop {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: title-shop;
   }
   .enlaces {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: enlaces;
   }
   footer {
-    grid-row: 4;
-    grid-column: 1;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: footer;
   }
   .grilla {
@@ -437,68 +417,68 @@
 
 @media screen and (min-width: 768px) {
   header {
-    grid-row: 1;
-    grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: header;
   }
   .carrusel {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: carrusel;
   }
   .article-home {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: article-home;
   }
   .fotos-comida-izquierda {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: fotos-comida-izquierda;
   }
   .fotos-comida-derecha {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: fotos-comida-derecha;
   }
   .videos {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: videos;
   }
   .info-izquierda {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: info-izquierda;
   }
   .texto-izquierdo {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: texto-izquierdo;
   }
   .info-derecha {
-    grid-row: 4;
-    grid-column: 1;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: info-derecha;
   }
   .texto-derecho {
-    grid-row: 5;
-    grid-column: 1;
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
     grid-area: texto-derecho;
   }
   .title-shop {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: title-shop;
   }
   .enlaces {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: enlaces;
   }
   footer {
-    grid-row: 4;
-    grid-column: 1;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: footer;
   }
   .grilla {
@@ -667,68 +647,68 @@
 
 @media screen and (min-width: 960px) {
   header {
-    grid-row: 1;
-    grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: header;
   }
   .carrusel {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: carrusel;
   }
   .article-home {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: article-home;
   }
   .fotos-comida-izquierda {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: fotos-comida-izquierda;
   }
   .fotos-comida-derecha {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: fotos-comida-derecha;
   }
   .videos {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: videos;
   }
   .info-izquierda {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: info-izquierda;
   }
   .texto-izquierdo {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: texto-izquierdo;
   }
   .info-derecha {
-    grid-row: 4;
-    grid-column: 1;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: info-derecha;
   }
   .texto-derecho {
-    grid-row: 5;
-    grid-column: 1;
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
     grid-area: texto-derecho;
   }
   .title-shop {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: title-shop;
   }
   .enlaces {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: enlaces;
   }
   footer {
-    grid-row: 4;
-    grid-column: 1;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: footer;
   }
   .grilla {
@@ -910,68 +890,68 @@
 
 @media screen and (min-width: 1024px) {
   header {
-    grid-row: 1;
-    grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: header;
   }
   .carrusel {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: carrusel;
   }
   .article-home {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: article-home;
   }
   .fotos-comida-izquierda {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: fotos-comida-izquierda;
   }
   .fotos-comida-derecha {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: fotos-comida-derecha;
   }
   .videos {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: videos;
   }
   .info-izquierda {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: info-izquierda;
   }
   .texto-izquierdo {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: texto-izquierdo;
   }
   .info-derecha {
-    grid-row: 4;
-    grid-column: 1;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: info-derecha;
   }
   .texto-derecho {
-    grid-row: 5;
-    grid-column: 1;
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
     grid-area: texto-derecho;
   }
   .title-shop {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: title-shop;
   }
   .enlaces {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: enlaces;
   }
   footer {
-    grid-row: 4;
-    grid-column: 1;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: footer;
   }
   .grilla {
@@ -1064,6 +1044,8 @@
     background-color: lightcoral;
   }
   .fecha {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1138,68 +1120,68 @@
 
 @media screen and (min-width: 1328px) {
   header {
-    grid-row: 1;
-    grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
     grid-area: header;
   }
   .carrusel {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: carrusel;
   }
   .article-home {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: article-home;
   }
   .fotos-comida-izquierda {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: fotos-comida-izquierda;
   }
   .fotos-comida-derecha {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: fotos-comida-derecha;
   }
   .videos {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: videos;
   }
   .info-izquierda {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: info-izquierda;
   }
   .texto-izquierdo {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: texto-izquierdo;
   }
   .info-derecha {
-    grid-row: 4;
-    grid-column: 1;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: info-derecha;
   }
   .texto-derecho {
-    grid-row: 5;
-    grid-column: 1;
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
     grid-area: texto-derecho;
   }
   .title-shop {
-    grid-row: 2;
-    grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
     grid-area: title-shop;
   }
   .enlaces {
-    grid-row: 3;
-    grid-column: 1;
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
     grid-area: enlaces;
   }
   footer {
-    grid-row: 4;
-    grid-column: 1;
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
     grid-area: footer;
   }
   .grilla {
