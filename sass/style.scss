@@ -76,9 +76,7 @@
       grid-template-areas:
       "header"
       "info-izquierda"
-      "texto-izquierdo"
       "info-derecha"
-      "texto-derecho"
       "footer";
     }
 
@@ -263,12 +261,21 @@
       display: flex;
     }
 
+    .box2{
+      display:flex;
+    }
+
     .img-market{
       display: flex;
+    }
+
+    .img-market{
       width: 16em!important;
     }
 
     section div a{
+        display: flex;
+        width: 35em!important;
         font-size: 15px;
         margin-bottom: 10px;
         margin-left: 15px;
@@ -371,9 +378,7 @@
       grid-template-areas:
       "header"
       "info-izquierda"
-      "texto-izquierdo"
       "info-derecha"
-      "texto-derecho"
       "footer";
     }
 
@@ -483,12 +488,20 @@
         margin-top: 15px;
         margin-bottom: 15px;
       }
-  
+      
+    .info-izquierda{
+      display:flex;
+    }
+    
+    .info-derecha{
+      display:flex;
+    }
+
     .info-izquierda img{
         display: flex;
         width: 130px;
         height: 185px;
-        margin-top: 40px;
+        margin-top: 55px;
         margin-bottom: 15px;
       }
     
@@ -498,13 +511,19 @@
         flex-wrap: nowrap;
         width: 130px;
         height: 185px;
+        padding: 10px;
         margin-top: 20px;
         margin-bottom: 20px;
       }
-    
+
+      .texto-izquierdo{
+        margin-top: 55px!important;
+      }
+
       .texto-izquierdo,.texto-derecho{
-        color: bisque;
-        font-size: 20px;
+        display:flex;
+        color: rgb(33, 37, 41);
+        font-size: 12px;
         text-align: center;
         margin-top: 15px;
         margin-bottom: 15px;
@@ -595,9 +614,7 @@
       grid-template-areas:
       "header"
       "info-izquierda"
-      "texto-izquierdo"
       "info-derecha"
-      "texto-derecho"
       "footer";
     }
 
@@ -832,9 +849,7 @@
       grid-template-areas:
       "header"
       "info-izquierda"
-      "texto-izquierdo"
       "info-derecha"
-      "texto-derecho"
       "footer";
     }
 
@@ -1056,9 +1071,7 @@
       grid-template-areas:
       "header"
       "info-izquierda"
-      "texto-izquierdo"
       "info-derecha"
-      "texto-derecho"
       "footer";
     }
 
