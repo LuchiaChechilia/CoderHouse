@@ -383,17 +383,17 @@
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  .title-shop {
-    margin-top: 30px !important;
+  h3 {
+    margin-top: 56px !important;
   }
   h3 {
     color: white;
-    font-size: 20px;
+    font-size: 15px !important;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
+    font-weight: lighter;
     text-align: center;
     margin-top: 56px;
-    background-color: #1b1a1a;
+    background-color: #212529;
   }
   .bi.bi-cart3 {
     margin-top: 25px;
@@ -401,22 +401,37 @@
     margin-left: 15px;
     width: 60;
     height: 60;
-    color: bisque;
-    background-color: lightcoral;
+    color: #212529;
+    border: 1px solid #212529;
+    border-radius: 6px;
+  }
+  .box1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .img-market {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 16em !important;
   }
   section div a {
     font-size: 15px;
     margin-bottom: 10px;
     margin-left: 15px;
-    color: bisque;
-    background-color: lightcoral;
+    color: #212529;
+    padding: 10px 10x;
+    border: 1px solid #212529;
+    border-radius: 6px;
   }
   p.text-shop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: 10px;
-    font-size: 18px;
-    text-align: center;
-    color: lightcoral;
-    background-color: bisque;
+    font-size: 16px;
+    color: #212529;
   }
 }
 
@@ -879,9 +894,6 @@
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-  }
-  h3 {
-    font-size: 24px;
   }
   .bi.bi-cart3 {
     margin-top: 35px;
@@ -1363,9 +1375,6 @@
   .fotos-comida-derecha img:hover {
     width: 190px;
     height: 140px;
-  }
-  h3 {
-    font-size: 26px;
   }
   .bi.bi-cart3 {
     margin-top: 50px;
