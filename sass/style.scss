@@ -2,1233 +2,1313 @@
 @import "menuOpciones";
 
 @media screen and (min-width: 480px){
-    header{
-      grid-area: header;
-    }
-  
-    .carrusel{
-      grid-area: carrusel;
-    }
-  
-    .article-home{
-      grid-area: article-home;
-    }
-  
-    .fotos-comida-izquierda{
-      grid-area: fotos-comida-izquierda;
-    }
-  
-    .fotos-comida-derecha{
-      grid-area: fotos-comida-derecha;
-    }
-  
-    .videos{
-      grid-area: videos;
-    }
-  
-    .info-izquierda{
-      grid-area:info-izquierda;
-    }
-  
-    .texto-izquierdo{
-      grid-area:texto-izquierdo;
-    }
-  
-    .info-derecha{
-      grid-area:info-derecha;
-    }
-  
-    .texto-derecho{
-      grid-area:texto-derecho;
-    }
+  header{
+    grid-area: header;
+  }
 
-    .title-shop{
-        grid-area:title-shop;
-    }
+  .carrusel{
+    grid-area: carrusel;
+  }
 
-    .enlaces{
-        grid-area: enlaces;
-    }
+  .article-home{
+    grid-area: article-home;
+  }
 
-    footer{
-      grid-area: footer;
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "carrusel"
-      "article-home"
-      "footer";
-    }
-      
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "videos"
-      "footer";
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "info-izquierda"
-      "info-derecha"
-      "footer";
-    }
+  .fotos-comida-izquierda{
+    grid-area: fotos-comida-izquierda;
+  }
 
-    .grilla{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "carrusel"
-        "article-home"
-        "footer";
-      }
+  .fotos-comida-derecha{
+    grid-area: fotos-comida-derecha;
+  }
 
-    .grilla{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "title-shop"
-        "enlaces"
-        "footer";
-      }  
+  .videos{
+    grid-area: videos;
+  }
+
+  .info-izquierda{
+    grid-area:info-izquierda;
+  }
+
+  .texto-izquierdo{
+    grid-area:texto-izquierdo;
+  }
+
+  .info-derecha{
+    grid-area:info-derecha;
+  }
+
+  .texto-derecho{
+    grid-area:texto-derecho;
+  }
+
+  .title-shop{
+      grid-area:title-shop;
+  }
+
+  .enlaces{
+      grid-area: enlaces;
+  }
+
+  footer{
+    grid-area: footer;
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "carrusel"
+    "article-home"
+    "footer";
+  }
     
-    .carrusel {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-    }
-  
-    .carrusel ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      max-width: 500px;
-      scroll-behavior: smooth;
-    }
-  
-    .carrusel-fotos {
-      display: flex;
-      gap: 10px;
-      overflow: auto;
-    }
-  
-    .carrusel-fotos img {
-      background: #212121;
-      border: 4px #212121;
-      width: 40px;
-      height:60px;
-      object-fit: contain;
-    }
-  
-    .carrusel-menu {
-      display: block;
-    }
-  
-    .carrusel-menu img {
-      box-sizing: border-box;
-      width: 45px;
-      height: 35px;
-      border: 8px #212121;
-    }
-  
-    .carrusel-menu{
-      padding-top: 16px!important;
-    }
-    .carrusel-menu img:hover {
-      transform: scale(1.2);
-    }
-  
-    p{
-      text-align:  center;
-    }
-  
-    .article-home{
-        font-size: 25px;
-        color: black;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: justify;
-        margin-top: 10px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-  
-    .videos{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      margin-top: 100px;
-      margin-bottom: 100px;
-      width: 100%;
-      height: 75%;
-    }
-  
-    footer{
-      height: 500px;
-      margin-top: 163px;
-      background-image: url(/img/foot-index2.jpg)
-    }
-  
-    .fecha{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-top: 45px;
-      font-size: 20px;
-      color: white;
-    }
-  
-    .fotos-comida-izquierda img{
-      display: flex;
-      flex-direction: row;
-      width: 175px;
-      height: 120px;
-      margin-top: 40px;
-      margin-bottom: 20px;
-    }
-  
-    .fotos-comida-derecha img{
-     display: flex;
-      width: 175px;
-      height: 120px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-    .parrafo1,.parrafo2,.parrafo3,.parrafo4{
-      color: bisque;
-      font-size: 18px;
-      margin-top: 15px;
-      margin-bottom: 15px;
-    }
-  
-    .info-izquierda img{
-      display: flex;
-      width: 120px;
-      height: 175px;
-      margin-top: 40px;
-      margin-bottom: 15px;
-    }
-  
-    .info-derecha img{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      width: 120px;
-      height: 175px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-  
-    .texto-izquierdo,.texto-derecho{
-      color: bisque;
-      font-size: 20px;
-      text-align: center;
-      margin-top: 15px;
-      margin-bottom: 15px;
-    }
-    h3{
-      margin-top: 56px!important;
-    }
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "videos"
+    "footer";
+  }
 
-    h3{
-        color: white;
-        font-size: 15px!important;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: lighter;
-        text-align: center;
-        margin-top: 56px;
-        background-color: rgb(33, 37, 41);
-    }
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "info-izquierda"
+    "info-derecha"
+    "footer";
+  }
 
-    .bi.bi-cart3{
-        margin-top: 25px;
-        margin-bottom: 25px;
-        margin-left: 15px;
-        width: 60;
-        height: 60;
-        color: rgb(33, 37, 41);
-        border: 1px solid rgb(33, 37, 41);
-        border-radius: 6px;
-    }
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "carrusel"
+    "article-home"
+    "footer";
+  }
 
-    .box1{
-      display: flex;
-    }
-
-    .box2{
-      display:flex;
-    }
-
-    .img-market{
-      display: flex;
-    }
-
-    .img-market{
-      width: 16em!important;
-    }
-
-    section div a{
-        display: flex;
-        width: 35em!important;
-        font-size: 15px;
-        margin-bottom: 10px;
-        margin-left: 15px;
-        color: rgb(33, 37, 41);
-        padding: 10px 10x;
-        border: 1px solid rgb(33, 37, 41);
-        border-radius: 6px;
-    }
-
-    p.text-shop{
-        display: flex;
-        margin-top: 10px;
-        font-size: 16px;
-        color: rgb(33, 37, 41);
-    }
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "title-shop"
+    "enlaces"
+    "footer";
+  }  
   
+  .carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+    scroll-behavior: smooth;
+  }
+
+  .carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+  }
+
+  .carrusel-fotos img {
+    background: #212121;
+    border: 4px #212121;
+    width: 40px;
+    height:60px;
+    object-fit: contain;
+  }
+
+  .carrusel-menu {
+    display: block;
+  }
+
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 45px;
+    height: 35px;
+    border: 8px #212121;
+  }
+
+  .carrusel-menu{
+    padding-top: 16px!important;
+  }
+
+  .carrusel-menu img:hover {
+    transform: scale(1.2);
+  }
+
+  p{
+    text-align:  center;
+  }
+
+  .article-home{
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .videos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 75%;
+  }
+
+  .vid{
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   
-  @media screen and (min-width: 768px){  
-    header{
-      grid-area: header;
-    }
-  
-    .carrusel{
-      grid-area: carrusel;
-    }
-  
-    .article-home{
-      grid-area: article-home;
-    }
-  
-    .fotos-comida-izquierda{
-      grid-area: fotos-comida-izquierda;
-    }
-  
-    .fotos-comida-derecha{
-      grid-area: fotos-comida-derecha;
-    }
-  
-    .videos{
-      grid-area: videos;
-    }
-  
-    .info-izquierda{
-      grid-area:info-izquierda;
-    }
-  
-    .texto-izquierdo{
-      grid-area:texto-izquierdo;
-    }
-  
-    .info-derecha{
-      grid-area:info-derecha;
-    }
-  
-    .texto-derecho{
-      grid-area:texto-derecho;
-    }
+  footer{
+    height: 500px;
+    margin-top: 163px;
+    background-image: url(/img/foot-index2.jpg)
+  }
 
-    .title-shop{
-        grid-area:title-shop;
-    }
+  .fecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    font-size: 20px;
+    color: white;
+  }
 
-    .enlaces{
-        grid-area: enlaces;
-    }
-  
-    footer{
-      grid-area: footer;
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "carrusel"
-      "article-home"
-      "footer";
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "fotos-comida-izquierda"
-      "fotos-comida-derecha"
-      "footer";
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "videos"
-      "footer";
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "info-izquierda"
-      "info-derecha"
-      "footer";
-    }
+  .fotos-comida-izquierda img{
+    display: flex;
+    flex-direction: row;
+    width: 175px;
+    height: 120px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
 
-    .grilla{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "title-shop"
-        "enlaces"
-        "footer";
-      }
-  
-    .carrusel {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-    }
-  
-    .carrusel ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      max-width: 690px;
-      scroll-behavior: smooth;
-    }
-  
-    .carrusel-fotos {
-      display: flex;
-      gap: 10px;
-      overflow: auto;
-    }
-  
-    .carrusel-fotos img {
-      background: #212121;
-      border: 4px #212121;
-      width: 400px;
-      height:300px;
-      object-fit: contain;
-    }
-  
-    .carrusel-menu {
-      display: block;
-    }
-  
-    .carrusel-menu img {
-      box-sizing: border-box;
-      width: 45px;
-      height: 35px;
-      border: 8px #212121;
-    }
-  
-    .carrusel-menu{
-      padding-top: 16px!important;
-    }
-    .carrusel-menu img:hover {
-      transform: scale(1.2);
-    }
-  
-    p{
-      text-align:  center;
-    }
-  
-    .article-home{
-      font-size: 25px;
-      color: black;
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: justify;
-      margin-top: 10px;
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-  
-    footer{
-      height: 500px;
-      margin-top: 163px;
-      background-image: url(/img/foot-index2.jpg)
-    }
-  
-    .fecha{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 45px;
-        font-size: 25px;
-        color: white;
-    }
-  
-    .fotos-comida-izquierda img{
-        display: flex;
-        flex-direction: row;
-        width: 185px;
-        height: 130px;
-        margin-top: 40px;
-        margin-bottom: 20px;
-      }
-    
-      .fotos-comida-derecha img{
-       display: flex;
-        width: 185px;
-        height: 130px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-      .parrafo1,.parrafo2,.parrafo3,.parrafo4{
-        color: bisque;
-        font-size: 20px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-      }
-      
-    .info-izquierda{
-      display:flex;
-    }
-    
-    .info-derecha{
-      display:flex;
-    }
+  .fotos-comida-derecha img{
+    display: flex;
+    width: 175px;
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-    .info-izquierda img{
-        display: flex;
-        width: 130px;
-        height: 185px;
-        margin-top: 55px;
-        margin-bottom: 15px;
-      }
-    
-      .info-derecha img{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 130px;
-        height: 185px;
-        padding: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
+  .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+    color: bisque;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 
-      .texto-izquierdo{
-        margin-top: 55px!important;
-      }
+  .info-izquierda{
+    display:flex;
+  }
 
-      .texto-izquierdo,.texto-derecho{
-        display:flex;
-        color: rgb(33, 37, 41);
-        font-size: 12px;
-        text-align: center;
-        margin-top: 15px;
-        margin-bottom: 15px;
-      }
+  .info-izquierda{
+    margin-top: 20px!important;
   }
   
-  @media screen and (min-width: 960px){
-    header{
-      grid-area: header;
-    }
-  
-    .carrusel{
-      grid-area: carrusel;
-    }
-  
-    .article-home{
-      grid-area: article-home;
-    }
-  
-    .fotos-comida-izquierda{
-      grid-area: fotos-comida-izquierda;
-    }
-  
-    .fotos-comida-derecha{
-      grid-area: fotos-comida-derecha;
-    }
-  
-    .videos{
-      grid-area: videos;
-    }
-  
-    .info-izquierda{
-      grid-area:info-izquierda;
-    }
-  
-    .texto-izquierdo{
-      grid-area:texto-izquierdo;
-    }
-  
-    .info-derecha{
-      grid-area:info-derecha;
-    }
-  
-    .texto-derecho{
-      grid-area:texto-derecho;
-    }
-
-    .title-shop{
-        grid-area:title-shop;
-    }
-
-    .enlaces{
-        grid-area: enlaces;
-    }
-  
-    footer{
-      grid-area: footer;
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "carrusel"
-      "article-home"
-      "footer";
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "fotos-comida-izquierda"
-      "fotos-comida-derecha"
-      "footer";
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "videos"
-      "footer";
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "info-izquierda"
-      "info-derecha"
-      "footer";
-    }
-
-    .grilla{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "title-shop"
-        "enlaces"
-        "footer";
-      }
-
-    .carrusel {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-    }
-  
-    .carrusel ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      max-width: 955px;
-      scroll-behavior: smooth;
-    }
-  
-    .carrusel-fotos {
-      display: flex;
-      gap: 10px;
-      overflow: auto;
-    }
-  
-    .carrusel-fotos img {
-      background: #212121;
-      border: 4px #212121;
-      width: 400px;
-      height:300px;
-      object-fit: contain;
-    }
-  
-    .carrusel-menu {
-      display: block;
-    }
-  
-    .carrusel-menu img {
-      box-sizing: border-box;
-      width: 45px;
-      height: 35px;
-      border: 8px #212121;
-    }
-  
-    .carrusel-menu{
-      padding-top: 16px!important;
-    }
-    .carrusel-menu img:hover {
-      transform: scale(1.2);
-    }
-  
-    p{
-      text-align:  center;
-    }
-  
-    .article-home{
-      font-size: 25px;
-      color: black;
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: justify;
-      margin-top: 10px;
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-  
-    footer{
-      height: 500px;
-      margin-top: 163px;
-      background-image: url(/img/foot-index2.jpg)
-    }
-  
-    .fecha{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 50px;
-        font-size: 20px;
-        color: white;
-    }
-  
-    .fotos-comida-izquierda img{
-        display: flex;
-        flex-direction: row;
-        width: 195px;
-        height: 140px;
-        margin-top: 40px;
-        margin-bottom: 20px;
-      }
-    
-      .fotos-comida-derecha img{
-       display: flex;
-        width: 195px;
-        height: 140px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-      .parrafo1,.parrafo2,.parrafo3,.parrafo4{
-        color: bisque;
-        font-size: 22px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-      }
-  
-    .info-izquierda img{
-        display: flex;
-        width: 140px;
-        height: 195px;
-        margin-top: 40px;
-        margin-bottom: 15px;
-      }
-    
-      .info-derecha img{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 140px;
-        height: 195px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-    
-      .texto-izquierdo,.texto-derecho{
-        color: bisque;
-        font-size: 20px;
-        text-align: center;
-        margin-top: 15px;
-        margin-bottom: 15px;
-      }
-
-    .bi.bi-cart3{
-        margin-top: 35px;
-        margin-bottom: 35px;
-    }
-
-    section div a{
-        font-size: 20px;
-    }
-
-    p.text-shop{
-        font-size: 25px;
-    }
+  .info-derecha{
+    display:flex;
   }
   
-  @media screen and (min-width: 1024px){
-    header{
-      grid-area: header;
-    }
-  
-    .carrusel{
-      grid-area: carrusel;
-    }
-  
-    .article-home{
-      grid-area: article-home;
-    }
-  
-    .fotos-comida-izquierda{
-      grid-area: fotos-comida-izquierda;
-    }
-  
-    .fotos-comida-derecha{
-      grid-area: fotos-comida-derecha;
-    }
-  
-    .videos{
-      grid-area: videos;
-    }
-  
-    .info-izquierda{
-      grid-area:info-izquierda;
-    }
-  
-    .texto-izquierdo{
-      grid-area:texto-izquierdo;
-    }
-  
-    .info-derecha{
-      grid-area:info-derecha;
-    }
-  
-    .texto-derecho{
-      grid-area:texto-derecho;
-    }
+  .info-izquierda img{
+    display: flex;
+    width: 120px;
+    height: 175px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
 
-    .title-shop{
-        grid-area:title-shop;
-    }
+  .info-derecha img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 120px;
+    height: 175px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-    .enlaces{
-        grid-area: enlaces;
-    }
-  
-    footer{
-      grid-area: footer;
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "carrusel"
-      "article-home"
-      "footer";
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "fotos-comida-izquierda"
-      "fotos-comida-derecha"
-      "footer";
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "videos"
-      "footer";
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "info-izquierda"
-      "info-derecha"
-      "footer";
-    }
+  .texto-izquierdo,.texto-derecho{
+    display:flex;
+    color: rgb(33, 37, 41);
+    font-size: 12px;
+    text-align: center;
+    align-self: center!important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
 
-    .grilla{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "title-shop"
-        "enlaces"
-        "footer";
-      }
+  h3{
+    margin-top: 56px!important;
+  }
+
+  h3{
+    color: white;
+    font-size: 15px!important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 56px;
+    background-color: rgb(33, 37, 41);
+  }
+
+  .bi.bi-cart3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    width: 60;
+    height: 60;
+    color: rgb(33, 37, 41);
+    border: 1px solid rgb(33, 37, 41);
+    border-radius: 6px;
+  }
+
+  .box1{
+    display: flex;
+  }
+
+  .box2{
+    display:flex;
+  }
+
+  .img-market{
+    display: flex;
+  }
+
+  .img-market{
+    width: 16em!important;
+  }
+
+  section div a{
+    display: flex;
+    width: 35em!important;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    color: rgb(33, 37, 41);
+    padding: 10px 10x;
+    border: 1px solid rgb(33, 37, 41);
+    border-radius: 6px;
+  }
+
+  p.text-shop{
+    display: flex;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(33, 37, 41);
+  }
+}
   
-    .carrusel {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-    }
-  
-    .carrusel ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      max-width: 990px;
-      scroll-behavior: smooth;
-    }
-  
-    .carrusel-fotos {
-      display: flex;
-      gap: 10px;
-      overflow: auto;
-    }
-  
-    .carrusel-fotos img {
-      background: #212121;
-      border: 4px #212121;
-      width: 400px;
-      height:300px;
-      object-fit: contain;
-    }
-  
-    .carrusel-menu {
-      display: block;
-    }
-  
-    .carrusel-menu img {
-      box-sizing: border-box;
-      width: 45px;
-      height: 35px;
-      border: 8px #212121;
-    }
-  
-    .carrusel-menu{
-      padding-top: 16px!important;
-    }
-    .carrusel-menu img:hover {
-      transform: scale(1.2);
-    }
-  
-    p{
-      text-align:  center;
-    }
-  
-    .article-home{
-      font-size: 25px;
-      color: black;
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: justify;
-      margin-top: 10px;
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-  
-    footer{
-      height: 500px;
-      margin-top: 163px;
-      background-image: url(/img/foot-index2.jpg)
-    }
-  
-    .fecha{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-top: 55px;
-      font-size: 20px;
-      color: white;
-    }
-  
-    .fotos-comida-izquierda img{
-        display: flex;
-        flex-direction: row;
-        width: 205px;
-        height: 150px;
-        margin-top: 40px;
-        margin-bottom: 20px;
-      }
-    
-      .fotos-comida-derecha img{
-       display: flex;
-        width: 205px;
-        height: 150px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-      .parrafo1,.parrafo2,.parrafo3,.parrafo4{
-        color: bisque;
-        font-size: 24px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-      }
-  
-    .info-izquierda img{
-        display: flex;
-        width: 150px;
-        height: 205px;
-        margin-top: 40px;
-        margin-bottom: 15px;
-      }
-    
-      .info-derecha img{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 150px;
-        height: 205px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-    
-      .texto-izquierdo,.texto-derecho{
-        color: bisque;
-        font-size: 25px;
-        text-align: center;
-        margin-top: 15px;
-        margin-bottom: 15px;
-      }
+@media screen and (min-width: 768px){  
+  header{
+    grid-area: header;
+  }
+
+  .carrusel{
+    grid-area: carrusel;
+  }
+
+  .article-home{
+    grid-area: article-home;
+  }
+
+  .fotos-comida-izquierda{
+    grid-area: fotos-comida-izquierda;
+  }
+
+  .fotos-comida-derecha{
+    grid-area: fotos-comida-derecha;
+  }
+
+  .videos{
+    grid-area: videos;
+  }
+
+  .info-izquierda{
+    grid-area:info-izquierda;
+  }
+
+  .texto-izquierdo{
+    grid-area:texto-izquierdo;
+  }
+
+  .info-derecha{
+    grid-area:info-derecha;
+  }
+
+  .texto-derecho{
+    grid-area:texto-derecho;
+  }
+
+  .title-shop{
+    grid-area:title-shop;
+  }
+
+  .enlaces{
+    grid-area: enlaces;
+  }
+
+  footer{
+    grid-area: footer;
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "carrusel"
+    "article-home"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "fotos-comida-izquierda"
+    "fotos-comida-derecha"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "videos"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "info-izquierda"
+    "info-derecha"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "title-shop"
+    "enlaces"
+    "footer";
+  }
+
+  .carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 690px;
+    scroll-behavior: smooth;
+  }
+
+  .carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+  }
+
+  .carrusel-fotos img {
+    background: #212121;
+    border: 4px #212121;
+    width: 400px;
+    height:300px;
+    object-fit: contain;
+  }
+
+  .carrusel-menu {
+    display: block;
+  }
+
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 45px;
+    height: 35px;
+    border: 8px #212121;
+  }
+
+  .carrusel-menu{
+    padding-top: 16px!important;
   }
   
-  @media screen and (min-width: 1328px){
-    header{
-      grid-area: header;
-    }
-  
-    .carrusel{
-      grid-area: carrusel;
-    }
-  
-    .article-home{
-      grid-area: article-home;
-    }
-  
-    .fotos-comida-izquierda{
-      grid-area: fotos-comida-izquierda;
-    }
-  
-    .fotos-comida-derecha{
-      grid-area: fotos-comida-derecha;
-    }
-  
-    .videos{
-      grid-area: videos;
-    }
-  
-    .info-izquierda{
-      grid-area:info-izquierda;
-    }
-  
-    .texto-izquierdo{
-      grid-area:texto-izquierdo;
-    }
-  
-    .info-derecha{
-      grid-area:info-derecha;
-    }
-  
-    .texto-derecho{
-      grid-area:texto-derecho;
-    }
-
-    .title-shop{
-        grid-area:title-shop;
-    }
-
-    .enlaces{
-        grid-area: enlaces;
-    }
-  
-    footer{
-      grid-area: footer;
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "carrusel"
-      "article-home"
-      "footer";
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "fotos-comida-izquierda"
-      "fotos-comida-derecha"
-      "footer";
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "videos"
-      "footer";
-    }
-  
-    .grilla{
-      display: grid;
-      grid-template-areas:
-      "header"
-      "info-izquierda"
-      "info-derecha"
-      "footer";
-    }
-
-    .grilla{
-        display: grid;
-        grid-template-areas:
-        "header"
-        "title-shop"
-        "enlaces"
-        "footer";
-      }
-
-    .carrusel {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-    }
-  
-    .carrusel ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      max-width: 1030px;
-      scroll-behavior: smooth;
-    }
-  
-    .carrusel-fotos {
-      display: flex;
-      gap: 10px;
-      overflow: auto;
-    }
-  
-    .carrusel-fotos img {
-      background: #212121;
-      border: 4px #212121;
-      width: 400px;
-      height:300px;
-      object-fit: contain;
-    }
-  
-    .carrusel-menu {
-      display: block;
-    }
-  
-    .carrusel-menu img {
-      box-sizing: border-box;
-      width: 45px;
-      height: 35px;
-      border: 8px #212121;
-    }
-  
-    .carrusel-menu{
-      padding-top: 16px!important;
-    }
-    .carrusel-menu img:hover {
-      transform: scale(1.2);
-    }
-  
-    p{
-      text-align:  center;
-    }
-  
-    .article-home{
-      font-size: 25px;
-      color: black;
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: justify;
-      margin-top: 10px;
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-  
-    footer{
-      display: grid;
-      height: 500px;
-      background-image: url(/img/foot-index2.jpg)
-    }
-  
-    .fecha{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 60px;
-        font-size: 20px;
-        color: white;
-    }
-  
-    .fotos-comida-izquierda img{
-        display: flex;
-        flex-direction: row;
-        width: 215px;
-        height: 160px;
-        margin-top: 40px;
-        margin-bottom: 20px;
-      }
-    
-      .fotos-comida-derecha img{
-       display: flex;
-        width: 215px;
-        height: 160px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-      .parrafo1,.parrafo2,.parrafo3,.parrafo4{
-        color: bisque;
-        font-size: 26px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-      }
-  
-    .info-izquierda img{
-        display: flex;
-        width: 170px;
-        height: 225px;
-        margin-top: 40px;
-        margin-bottom: 15px;
-      }
-    
-      .info-derecha img{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 170px;
-        height: 225px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-    
-      .texto-izquierdo,.texto-derecho{
-        color: bisque;
-        font-size: 30px;
-        text-align: center;
-        margin-top: 15px;
-        margin-bottom: 15px;
-      }
-  
-    .fotos-comida-izquierda img:hover{
-      width: 190px;
-      height: 140px;
-    }
-  
-    .fotos-comida-derecha img:hover{
-      width: 190px;
-      height: 140px;
-    }
-    
-    .bi.bi-cart3{
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    section div a{
-        font-size: 20px;
-    }
-
-    p.text-shop{
-        font-size: 25px;
-    }
+  .carrusel-menu img:hover {
+    transform: scale(1.2);
   }
+
+  p{
+    text-align:  center;
+  }
+
+  .article-home{
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  footer{
+    height: 500px;
+    margin-top: 163px;
+    background-image: url(/img/foot-index2.jpg)
+  }
+
+  .fecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    font-size: 25px;
+    color: white;
+  }
+
+  .fotos-comida-izquierda img{
+    display: flex;
+    flex-direction: row;
+    width: 185px;
+    height: 130px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .fotos-comida-derecha img{
+    display: flex;
+    width: 185px;
+    height: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+    color: bisque;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+    
+  .info-izquierda{
+    display:flex;
+  }
+
+  .info-izquierda{
+    margin-top: 20px!important;
+  }
+  
+  .info-derecha{
+    display:flex;
+  }
+
+  .info-izquierda img{
+    display: flex;
+    width: 130px;
+    height: 185px;
+    margin-top: 55px;
+    margin-bottom: 15px;
+  }
+  
+  .info-derecha img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 130px;
+    height: 185px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .texto-izquierdo{
+    margin-top: 55px!important;
+  }
+
+  .texto-izquierdo,.texto-derecho{
+    display:flex;
+    color: rgb(33, 37, 41);
+    font-size: 12px;
+    text-align: center;
+    align-self: center!important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 960px){
+  header{
+    grid-area: header;
+  }
+
+  .carrusel{
+    grid-area: carrusel;
+  }
+
+  .article-home{
+    grid-area: article-home;
+  }
+
+  .fotos-comida-izquierda{
+    grid-area: fotos-comida-izquierda;
+  }
+
+  .fotos-comida-derecha{
+    grid-area: fotos-comida-derecha;
+  }
+
+  .videos{
+    grid-area: videos;
+  }
+
+  .info-izquierda{
+    grid-area:info-izquierda;
+  }
+
+  .texto-izquierdo{
+    grid-area:texto-izquierdo;
+  }
+
+  .info-derecha{
+    grid-area:info-derecha;
+  }
+
+  .texto-derecho{
+    grid-area:texto-derecho;
+  }
+
+  .title-shop{
+    grid-area:title-shop;
+  }
+
+  .enlaces{
+    grid-area: enlaces;
+  }
+
+  footer{
+    grid-area: footer;
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "carrusel"
+    "article-home"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "fotos-comida-izquierda"
+    "fotos-comida-derecha"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "videos"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "info-izquierda"
+    "info-derecha"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "title-shop"
+    "enlaces"
+    "footer";
+  }
+
+  .carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 955px;
+    scroll-behavior: smooth;
+  }
+
+  .carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+  }
+
+  .carrusel-fotos img {
+    background: #212121;
+    border: 4px #212121;
+    width: 400px;
+    height:300px;
+    object-fit: contain;
+  }
+
+  .carrusel-menu {
+    display: block;
+  }
+
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 45px;
+    height: 35px;
+    border: 8px #212121;
+  }
+
+  .carrusel-menu{
+    padding-top: 16px!important;
+  }
+
+  .carrusel-menu img:hover {
+    transform: scale(1.2);
+  }
+
+  p{
+    text-align:  center;
+  }
+
+  .article-home{
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  footer{
+    height: 500px;
+    margin-top: 163px;
+    background-image: url(/img/foot-index2.jpg)
+  }
+
+  .fecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .fotos-comida-izquierda img{
+    display: flex;
+    flex-direction: row;
+    width: 195px;
+    height: 140px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .fotos-comida-derecha img{
+    display: flex;
+    width: 195px;
+    height: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+    color: bisque;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+    
+  .info-izquierda{
+    display:flex;
+  }
+
+  .info-izquierda{
+    margin-top: 20px!important;
+  }
+    
+  .info-derecha{
+    display:flex;
+  }  
+
+  .info-izquierda img{
+    display: flex;
+    width: 140px;
+    height: 195px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .info-derecha img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 140px;
+    height: 195px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .texto-izquierdo,.texto-derecho{
+    display:flex;
+    color: rgb(33, 37, 41);
+    font-size: 12px;
+    text-align: center;
+    align-self: center!important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+
+  .bi.bi-cart3{
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  section div a{
+    font-size: 20px;
+  }
+
+  p.text-shop{
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  header{
+    grid-area: header;
+  }
+
+  .carrusel{
+    grid-area: carrusel;
+  }
+
+  .article-home{
+    grid-area: article-home;
+  }
+
+  .fotos-comida-izquierda{
+    grid-area: fotos-comida-izquierda;
+  }
+
+  .fotos-comida-derecha{
+    grid-area: fotos-comida-derecha;
+  }
+
+  .videos{
+    grid-area: videos;
+  }
+
+  .info-izquierda{
+    grid-area:info-izquierda;
+  }
+
+  .texto-izquierdo{
+    grid-area:texto-izquierdo;
+  }
+
+  .info-derecha{
+    grid-area:info-derecha;
+  }
+
+  .texto-derecho{
+    grid-area:texto-derecho;
+  }
+
+  .title-shop{
+    grid-area:title-shop;
+  }
+
+  .enlaces{
+    grid-area: enlaces;
+  }
+
+  footer{
+    grid-area: footer;
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "carrusel"
+    "article-home"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "fotos-comida-izquierda"
+    "fotos-comida-derecha"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "videos"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "info-izquierda"
+    "info-derecha"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "title-shop"
+    "enlaces"
+    "footer";
+  }
+
+  .carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 990px;
+    scroll-behavior: smooth;
+  }
+
+  .carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+  }
+
+  .carrusel-fotos img {
+    background: #212121;
+    border: 4px #212121;
+    width: 400px;
+    height:300px;
+    object-fit: contain;
+  }
+
+  .carrusel-menu {
+    display: block;
+  }
+
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 45px;
+    height: 35px;
+    border: 8px #212121;
+  }
+
+  .carrusel-menu{
+    padding-top: 16px!important;
+  }
+
+  .carrusel-menu img:hover {
+    transform: scale(1.2);
+  }
+
+  p{
+    text-align:  center;
+  }
+
+  .article-home{
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  footer{
+    height: 500px;
+    margin-top: 163px;
+    background-image: url(/img/foot-index2.jpg)
+  }
+
+  .fecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .fotos-comida-izquierda img{
+    display: flex;
+    flex-direction: row;
+    width: 205px;
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .fotos-comida-derecha img{
+    display: flex;
+    width: 205px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+    color: bisque;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .info-izquierda{
+    display:flex;
+  }
+
+  .info-izquierda{
+    margin-top: 20px!important;
+  }
+    
+  .info-derecha{
+    display:flex;
+  }
+
+  .info-izquierda img{
+    display: flex;
+    width: 150px;
+    height: 205px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .info-derecha img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 150px;
+    height: 205px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .texto-izquierdo,.texto-derecho{
+    display:flex;
+    color: rgb(33, 37, 41);
+    font-size: 12px;
+    text-align: center;
+    align-self: center!important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1328px){
+  header{
+    grid-area: header;
+  }
+
+  .carrusel{
+    grid-area: carrusel;
+  }
+
+  .article-home{
+    grid-area: article-home;
+  }
+
+  .fotos-comida-izquierda{
+    grid-area: fotos-comida-izquierda;
+  }
+
+  .fotos-comida-derecha{
+    grid-area: fotos-comida-derecha;
+  }
+
+  .videos{
+    grid-area: videos;
+  }
+
+  .info-izquierda{
+    grid-area:info-izquierda;
+  }
+
+  .texto-izquierdo{
+    grid-area:texto-izquierdo;
+  }
+
+  .info-derecha{
+    grid-area:info-derecha;
+  }
+
+  .texto-derecho{
+    grid-area:texto-derecho;
+  }
+
+  .title-shop{
+    grid-area:title-shop;
+  }
+
+  .enlaces{
+    grid-area: enlaces;
+  }
+
+  footer{
+    grid-area: footer;
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "carrusel"
+    "article-home"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "fotos-comida-izquierda"
+    "fotos-comida-derecha"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "videos"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "info-izquierda"
+    "info-derecha"
+    "footer";
+  }
+
+  .grilla{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "title-shop"
+    "enlaces"
+    "footer";
+  }
+
+  .carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 1030px;
+    scroll-behavior: smooth;
+  }
+
+  .carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+  }
+
+  .carrusel-fotos img {
+    background: #212121;
+    border: 4px #212121;
+    width: 400px;
+    height:300px;
+    object-fit: contain;
+  }
+
+  .carrusel-menu {
+    display: block;
+  }
+
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 45px;
+    height: 35px;
+    border: 8px #212121;
+  }
+
+  .carrusel-menu{
+    padding-top: 16px!important;
+  }
+
+  .carrusel-menu img:hover {
+    transform: scale(1.2);
+  }
+
+  p{
+    text-align:  center;
+  }
+
+  .article-home{
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  footer{
+    display: grid;
+    height: 500px;
+    background-image: url(/img/foot-index2.jpg)
+  }
+
+  .fecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .fotos-comida-izquierda img{
+    display: flex;
+    flex-direction: row;
+    width: 215px;
+    height: 160px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .fotos-comida-derecha img{
+    display: flex;
+    width: 215px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+    color: bisque;
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .info-izquierda{
+    display:flex;
+  }
+
+  .info-izquierda{
+    margin-top: 20px!important;
+  }
+    
+  .info-derecha{
+    display:flex;
+  }
+
+  .info-izquierda img{
+    display: flex;
+    width: 170px;
+    height: 225px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .info-derecha img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 170px;
+    height: 225px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .texto-izquierdo,.texto-derecho{
+    display:flex;
+    color: rgb(33, 37, 41);
+    font-size: 12px;
+    text-align: center;
+    align-self: center!important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+
+  .fotos-comida-izquierda img:hover{
+    width: 190px;
+    height: 140px;
+  }
+
+  .fotos-comida-derecha img:hover{
+    width: 190px;
+    height: 140px;
+  }
+  
+  .bi.bi-cart3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  section div a{
+    font-size: 20px;
+  }
+
+  p.text-shop{
+    font-size: 25px;
+  }
+}
   
