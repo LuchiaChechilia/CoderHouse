@@ -309,6 +309,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 500px;
     margin-top: 163px;
     background-image: url(/img/foot-index2.jpg);
@@ -473,7 +476,7 @@
     display: flex;
   }
   .img-market {
-    width: 215px;
+    width: 250px;
     height: 160px;
     margin: 15px 15px;
   }
@@ -689,6 +692,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 500px;
     margin-top: 163px;
     background-image: url(/img/foot-index2.jpg);
@@ -808,7 +814,7 @@
     display: -ms-flexbox;
     display: flex;
     color: #212529;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     -ms-flex-item-align: center !important;
         align-self: center !important;
@@ -982,6 +988,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 500px;
     margin-top: 163px;
     background-image: url(/img/foot-index2.jpg);
@@ -1077,7 +1086,7 @@
     display: -ms-flexbox;
     display: flex;
     color: #212529;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     -ms-flex-item-align: center !important;
         align-self: center !important;
@@ -1258,6 +1267,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 500px;
     margin-top: 163px;
     background-image: url(/img/foot-index2.jpg);
@@ -1353,7 +1365,7 @@
     display: -ms-flexbox;
     display: flex;
     color: #212529;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     -ms-flex-item-align: center !important;
         align-self: center !important;
@@ -1527,6 +1539,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 500px;
     background-image: url(/img/foot-index2.jpg);
   }
@@ -1621,7 +1636,7 @@
     display: -ms-flexbox;
     display: flex;
     color: #212529;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     -ms-flex-item-align: center !important;
         align-self: center !important;
